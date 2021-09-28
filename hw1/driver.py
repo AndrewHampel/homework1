@@ -4,7 +4,7 @@ import sys
 from dask.distributed import Client
 from dask import delayed
 
-import hw1sol as hw1
+import hw1 as hw1
 from hwfunctions import fun_factor, fun_inc
 
 NUM_WORKERS = 4
